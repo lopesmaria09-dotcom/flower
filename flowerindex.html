@@ -1,0 +1,215 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Arquitetura Botânica</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5edff;
+            color: #3d2854;
+        }
+
+        header {
+            background-color: #b58edc;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background-color: #8f65b5;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ead8ff;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(100, 60, 130, 0.15);
+        }
+
+        section h2 {
+            color: #7b4ca0;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            line-height: 1.7;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 250px;
+            background-color: #eee0ff;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .card h3 {
+            color: #714394;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 15px;
+        }
+
+        .botao {
+            display: inline-block;
+            margin-top: 20px;
+            background-color: #8f65b5;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .botao:hover {
+            background-color: #704796;
+        }
+
+        footer {
+            background-color: #6d4a87;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌿 Arquitetura Botânica</h1>
+        <p>Transformando espaços através da jardinagem e da natureza.</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#jardinagem">Jardinagem</a>
+        <a href="#plantas">Plantas</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <main>
+
+        <section id="inicio">
+            <h2>🌱 Bem-vindo ao mundo da jardinagem</h2>
+            <p>
+                A jardinagem é uma forma de conectar as pessoas com a natureza.
+                Com criatividade e cuidado, podemos transformar pequenos espaços
+                em ambientes verdes, agradáveis e cheios de vida.
+            </p>
+
+            <a href="#jardinagem" class="botao">Conheça mais</a>
+        </section>
+
+        <section id="jardinagem">
+            <h2>🌷 Dicas de Jardinagem</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>💧 Regar</h3>
+                    <p>
+                        Regue suas plantas de acordo com a necessidade de cada
+                        espécie, evitando excesso de água.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>☀️ Iluminação</h3>
+                    <p>
+                        Observe a quantidade de luz que cada planta precisa
+                        para crescer saudável.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🌱 Solo</h3>
+                    <p>
+                        Utilize um solo rico em nutrientes e adequado para
+                        o tipo de planta que você deseja cultivar.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="plantas">
+            <h2>🌸 Plantas para o seu jardim</h2>
+
+            <p>
+                Algumas plantas podem deixar seu jardim ainda mais bonito,
+                como lavanda, violetas, margaridas, samambaias e suculentas.
+                Escolha espécies que combinem com o espaço disponível e
+                com a quantidade de luz do ambiente.
+            </p>
+        </section>
+
+        <section id="contato">
+            <h2>💜 Arquitetura Botânica</h2>
+
+            <p>
+                Cuide das suas plantas, explore sua criatividade e transforme
+                seu espaço em um lugar mais verde e acolhedor.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Arquitetura Botânica | Feito com 💜 e 🌿</p>
+    </footer>
+
+</body>
+</html>
